@@ -1,7 +1,0 @@
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.DAL\obj\Debug\ResolveAssemblyReference.cache
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.DAL\bin\Debug\HB.UpgradeService.DAL.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.DAL\bin\Debug\HB.UpgradeService.DAL.pdb
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.DAL\bin\Debug\HB.UpgradeService.Models.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.DAL\bin\Debug\HB.UpgradeService.Models.pdb
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.DAL\obj\Debug\HB.UpgradeService.DAL.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.DAL\obj\Debug\HB.UpgradeService.DAL.pdb

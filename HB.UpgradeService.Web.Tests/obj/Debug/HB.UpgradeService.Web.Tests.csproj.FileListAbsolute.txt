@@ -1,8 +1,0 @@
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\bin\Debug\HB.UpgradeService.Web.Tests.dll.config
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\bin\Debug\HB.UpgradeService.Web.Tests.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\bin\Debug\HB.UpgradeService.Web.Tests.pdb
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\bin\Debug\HB.UpgradeService.Web.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\bin\Debug\HB.UpgradeService.Web.pdb
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\obj\Debug\HB.UpgradeService.Web.Tests.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web.Tests\obj\Debug\HB.UpgradeService.Web.Tests.pdb

@@ -1,5 +1,0 @@
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.BLL\bin\Debug\HB.UpgradeService.BLL.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.BLL\bin\Debug\HB.UpgradeService.BLL.pdb
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.BLL\obj\Debug\ResolveAssemblyReference.cache
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.BLL\obj\Debug\HB.UpgradeService.BLL.dll
-F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.BLL\obj\Debug\HB.UpgradeService.BLL.pdb
