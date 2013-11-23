@@ -1,0 +1,6 @@
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Models\bin\Debug\HB.UpgradeService.Models.dll.config
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Models\bin\Debug\HB.UpgradeService.Models.dll
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Models\bin\Debug\HB.UpgradeService.Models.pdb
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Models\obj\Debug\ResolveAssemblyReference.cache
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Models\obj\Debug\HB.UpgradeService.Models.dll
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Models\obj\Debug\HB.UpgradeService.Models.pdb

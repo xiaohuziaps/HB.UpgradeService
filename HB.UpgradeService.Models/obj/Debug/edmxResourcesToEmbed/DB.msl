@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="DB" />
+  <Alias Key="Target" Value="DB.Store" />
+  <EntityContainerMapping CdmEntityContainer="DBContainer" StorageEntityContainer="DBStoreContainer">
+    <EntitySetMapping Name="RuleInfo">
+      <EntityTypeMapping TypeName="DB.RuleInfo">
+        <MappingFragment StoreEntitySet="RuleInfo">
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CardVersion" ColumnName="CardVersion" />
+          <ScalarProperty Name="NavCardVersio" ColumnName="NavCardVersio" />
+          <ScalarProperty Name="NavVersion" ColumnName="NavVersion" />
+          <ScalarProperty Name="BDVersion" ColumnName="BDVersion" />
+          <ScalarProperty Name="BootVersion" ColumnName="BootVersion" />
+          <ScalarProperty Name="ImgVersion" ColumnName="ImgVersion" />
+          <ScalarProperty Name="AppVersion" ColumnName="AppVersion" />
+          <ScalarProperty Name="RuleName" ColumnName="RuleName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TerminalInfo">
+      <EntityTypeMapping TypeName="DB.TerminalInfo">
+        <MappingFragment StoreEntitySet="TerminalInfo">
+          <ScalarProperty Name="RuleInfoName" ColumnName="RuleInfoName" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="NewCardVersion" ColumnName="NewCardVersion" />
+          <ScalarProperty Name="NewNavCardVersion" ColumnName="NewNavCardVersion" />
+          <ScalarProperty Name="NewNavVersion" ColumnName="NewNavVersion" />
+          <ScalarProperty Name="NewBDVersion" ColumnName="NewBDVersion" />
+          <ScalarProperty Name="NewBootVersion" ColumnName="NewBootVersion" />
+          <ScalarProperty Name="NewImgVersion" ColumnName="NewImgVersion" />
+          <ScalarProperty Name="NewAppVersion" ColumnName="NewAppVersion" />
+          <ScalarProperty Name="CardVersion" ColumnName="CardVersion" />
+          <ScalarProperty Name="NavCardVersion" ColumnName="NavCardVersion" />
+          <ScalarProperty Name="NavVersion" ColumnName="NavVersion" />
+          <ScalarProperty Name="BDVersion" ColumnName="BDVersion" />
+          <ScalarProperty Name="BootVersion" ColumnName="BootVersion" />
+          <ScalarProperty Name="ImgVersion" ColumnName="ImgVersion" />
+          <ScalarProperty Name="AppVersion" ColumnName="AppVersion" />
+          <ScalarProperty Name="CustomerCode" ColumnName="CustomerCode" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="PlateNO" ColumnName="PlateNO" />
+          <ScalarProperty Name="SIM" ColumnName="SIM" />
+          <ScalarProperty Name="TerminalNo" ColumnName="TerminalNo" />
+          <ScalarProperty Name="SN" ColumnName="SN" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserInfo">
+      <EntityTypeMapping TypeName="DB.UserInfo">
+        <MappingFragment StoreEntitySet="UserInfo">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VersionInfo">
+      <EntityTypeMapping TypeName="DB.VersionInfo">
+        <MappingFragment StoreEntitySet="VersionInfo">
+          <ScalarProperty Name="FileSize" ColumnName="FileSize" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="TerminalFileType" ColumnName="TerminalFileType" />
+          <ScalarProperty Name="VersionName" ColumnName="VersionName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

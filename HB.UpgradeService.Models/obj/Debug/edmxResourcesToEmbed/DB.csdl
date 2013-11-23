@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DB" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="DBContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="RuleInfo" EntityType="DB.RuleInfo" />
+    <EntitySet Name="TerminalInfo" EntityType="DB.TerminalInfo" />
+    <EntitySet Name="UserInfo" EntityType="DB.UserInfo" />
+    <EntitySet Name="VersionInfo" EntityType="DB.VersionInfo" />
+  </EntityContainer>
+  <EntityType Name="RuleInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="RuleName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AppVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImgVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BootVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BDVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NavVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NavCardVersio" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CardVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TerminalInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="SN" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TerminalNo" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SIM" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PlateNO" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="VehicleType" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CustomerCode" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AppVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ImgVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BootVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BDVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NavVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NavCardVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CardVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NewAppVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NewImgVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NewBootVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NewBDVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NewNavVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NewNavCardVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="NewCardVersion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateTime" Nullable="false" />
+    <Property Type="DateTime" Name="UpdateTime" />
+    <Property Type="Decimal" Name="Longitude" Precision="9" Scale="6" />
+    <Property Type="Decimal" Name="Latitude" Precision="9" Scale="6" />
+    <Property Type="String" Name="RuleInfoName" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Password" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="VersionInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Guid" Name="Id" Nullable="false" />
+    <Property Type="String" Name="VersionName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TerminalFileType" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreateTime" Nullable="false" />
+    <Property Type="Int32" Name="FileSize" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,5 @@
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web\bin\HB.UpgradeService.Web.dll
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web\bin\HB.UpgradeService.Web.pdb
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web\obj\Debug\ResolveAssemblyReference.cache
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web\obj\Debug\HB.UpgradeService.Web.dll
+F:\HB.UpgradeService\HB.UpgradeService\HB.UpgradeService.Web\obj\Debug\HB.UpgradeService.Web.pdb

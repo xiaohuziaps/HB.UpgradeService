@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DBStoreContainer">
+    <EntitySet Name="RuleInfo" EntityType="DB.Store.RuleInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TerminalInfo" EntityType="DB.Store.TerminalInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserInfo" EntityType="DB.Store.UserInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VersionInfo" EntityType="DB.Store.VersionInfo" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="RuleInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RuleName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="AppVersion" Type="varchar" MaxLength="50" />
+    <Property Name="ImgVersion" Type="varchar" MaxLength="50" />
+    <Property Name="BootVersion" Type="varchar" MaxLength="50" />
+    <Property Name="BDVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NavVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NavCardVersio" Type="varchar" MaxLength="50" />
+    <Property Name="CardVersion" Type="varchar" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TerminalInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SN" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="TerminalNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SIM" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PlateNO" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="VehicleType" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CustomerCode" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="AppVersion" Type="varchar" MaxLength="50" />
+    <Property Name="ImgVersion" Type="varchar" MaxLength="50" />
+    <Property Name="BootVersion" Type="varchar" MaxLength="50" />
+    <Property Name="BDVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NavVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NavCardVersion" Type="varchar" MaxLength="50" />
+    <Property Name="CardVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NewAppVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NewImgVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NewBootVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NewBDVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NewNavVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NewNavCardVersion" Type="varchar" MaxLength="50" />
+    <Property Name="NewCardVersion" Type="varchar" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Longitude" Type="decimal" Precision="9" Scale="6" />
+    <Property Name="Latitude" Type="decimal" Precision="9" Scale="6" />
+    <Property Name="RuleInfoName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Password" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="VersionInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="VersionName" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="TerminalFileType" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="FileSize" Type="int" />
+  </EntityType>
+</Schema>
